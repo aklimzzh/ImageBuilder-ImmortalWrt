@@ -60,13 +60,15 @@ PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 # minidlna
-PACKAGES="$PACKAGES luci-app-minidlna"
+PACKAGES="$PACKAGES minidlna luci-app-minidlna"
 # rclone
-PACKAGES="$PACKAGES luci-app-rclone"
+PACKAGES="$PACKAGES rclone-webui-react luci-app-rclone"
 # alist
 PACKAGES="$PACKAGES luci-app-alist"
 # AdguardHome
-PACKAGES="$PACKAGES luci-app-adguardhome"
+PACKAGES="$PACKAGES adguardhome luci-app-adguardhome"
+# Mosdns
+PACKAGES="$PACKAGES mosdns"
 
 # Docker 组件
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
