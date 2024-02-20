@@ -55,14 +55,14 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
-# Adbyby-plus
-PACKAGES="$PACKAGES luci-app-adbyby-plus-zh-cn"
 # minidlna
 PACKAGES="$PACKAGES luci-app-minidlna-zh-cn"
 # rclone
 PACKAGES="$PACKAGES luci-app-rclone-zh-cn"
 # alist
 PACKAGES="$PACKAGES luci-app-alist"
+# AdguardHome
+PACKAGES="$PACKAGES luci-app-adguardhome"
 
 # Docker 组件
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
