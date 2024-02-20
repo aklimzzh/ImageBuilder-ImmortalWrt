@@ -9,6 +9,10 @@ PROFILE="generic"
 # 要嵌入映像的软件包列表
 # PACKAGES=""
 # 基础包
+
+# 移除不需要的包
+PACKAGES="$PACKAGES -strongswan-mod-x509"
+
 ## 基础组件
 PACKAGES="$PACKAGES coremark kmod-tcp-bbr lm-sensors-detect nano"
 ## 虚拟网卡驱动
