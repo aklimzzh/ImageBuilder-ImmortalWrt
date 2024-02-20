@@ -57,8 +57,6 @@ PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 # Adbyby-plus
 PACKAGES="$PACKAGES luci-app-adbyby-plus-zh-cn"
-# Mosdns
-PACKAGES="$PACKAGES luci-app-mosdns-zh-cn"
 # minidlna
 PACKAGES="$PACKAGES luci-app-minidlna-zh-cn"
 # rclone
