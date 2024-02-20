@@ -43,8 +43,6 @@ PACKAGES="$PACKAGES openssh-server openssh-client"
 PACKAGES="$PACKAGES netdata"
 
 # 服务
-## passwall
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn" # 依赖 ipt2socks
 ## upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # GoWebDav
@@ -65,20 +63,20 @@ PACKAGES="$PACKAGES luci-app-mosdns-zh-cn"
 PACKAGES="$PACKAGES luci-app-minidlna-zh-cn"
 # rclone
 PACKAGES="$PACKAGES luci-app-rclone-zh-cn"
-# minidlna
-#PACKAGES="$PACKAGES luci-app-minidlna-zh-cn"
+# alist
+PACKAGES="$PACKAGES luci-app-alist"
 
 # Docker 组件
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 
 # 网络
+## passwall
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn" # 依赖 ipt2socks
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
-# HomeProxy 代理
-PACKAGES="$PACKAGES luci-app-homeproxy-zh-cn"
-## turboacc
+# turboacc
 PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn" # 补齐 turboacc 中文翻译。官方源未提供 turboacc。
-## firewall
+# firewall
 PACKAGES="$PACKAGES  -iptables -firewall nftables firewall4"  # firewall4 存在兼容问题，暂时换回老版本
 # IPSec VPN
 PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
