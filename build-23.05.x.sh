@@ -7,7 +7,7 @@ make info
 PROFILE="generic"
 
 # 要嵌入映像的软件包列表
-PACKAGES=""
+# PACKAGES=""
 # 基础包
 ## 基础组件
 PACKAGES="$PACKAGES coremark kmod-tcp-bbr lm-sensors-detect nano"
