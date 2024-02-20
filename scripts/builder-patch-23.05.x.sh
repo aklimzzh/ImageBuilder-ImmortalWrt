@@ -13,7 +13,7 @@ sed -i "s/install \$(BUILD_PACKAGES)/install \$(BUILD_PACKAGES) --force-overwrit
 
 # 功能关闭
 ## 关闭 ipv6
-sed -i "s/CONFIG_IPV6=y/CONFIG_IPV6=n/" .config
+#sed -i "s/CONFIG_IPV6=y/CONFIG_IPV6=n/" .config
 
 ## 关闭 dhcp
 sed -i "s/CONFIG_PACKAGE_dnsmasq_full_dhcp=y/# CONFIG_PACKAGE_dnsmasq_full_dhcp is not set/" .config
