@@ -56,9 +56,9 @@ PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 # minidlna
-PACKAGES="$PACKAGES luci-app-minidlna-zh-cn"
+PACKAGES="$PACKAGES luci-app-minidlna"
 # rclone
-PACKAGES="$PACKAGES luci-app-rclone-zh-cn"
+PACKAGES="$PACKAGES luci-app-rclone"
 # alist
 PACKAGES="$PACKAGES luci-app-alist"
 # AdguardHome
@@ -73,7 +73,7 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn" # 依赖 ipt2socks
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
 # turboacc
-PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn" # 补齐 turboacc 中文翻译。官方源未提供 turboacc。
+#PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn" # 补齐 turboacc 中文翻译。官方源未提供 turboacc。
 # firewall
 PACKAGES="$PACKAGES  -iptables -firewall nftables firewall4"  # firewall4 存在兼容问题，暂时换回老版本
 # IPSec VPN
