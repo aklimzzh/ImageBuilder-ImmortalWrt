@@ -1,6 +1,8 @@
-https://github.com/douglarek/luci-app-homeproxy/releases/download/2024021900/luci-app-homeproxy_release-2024021900_all.ipk
-https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/luci-i18n-mosdns-zh-cn_git-23.309.43711-74d15c2_all.ipk
+https://github.com/douglarek/luci-app-homeproxy/releases/download/2024031600/luci-app-homeproxy_release-2024031600_all.ipk
+https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/mosdns_5.3.1-1_x86_64.ipk
+https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/luci-i18n-mosdns-zh-cn_git-23.319.54348-e79a991_all.ipk
 https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/luci-app-mosdns_1.5.16_all.ipk
-https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/v2ray-geoip_2023-11-06_all.ipk
+https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/luci-app-mosdns_1.5.20_all.ipk
+https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/v2ray-geoip_2024-02-26_all.ipk
+https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.1/v2ray-geosite_2024-02-26_all.ipk
 https://github.com/rufengsuixing/luci-app-adguardhome/releases/download/1.8-11/luci-app-adguardhome_1.8-11_all.ipk
