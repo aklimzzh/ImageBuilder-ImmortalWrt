@@ -108,7 +108,7 @@ PACKAGES="$PACKAGES -kmod-usb-audio -kmod-usb-hid -kmod-usb-net -kmod-usb-net-as
 # PACKAGES="$PACKAGES -luci-app-filetransfer"
 
 # 包含自定义文件的目录
-FILES="files"
+FILES="files/23.05.x"
 
 # 要禁用的 /etc/init.d 中服务的名称
 DISABLED_SERVICES="sshd"
